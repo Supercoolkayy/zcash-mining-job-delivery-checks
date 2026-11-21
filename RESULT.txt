@@ -1,0 +1,8 @@
+Verified three upstream adapter files, the bundled async file and the Flypool fixture.
+{"check":"Stratum loopback replay","received":3,"parents":["initial","same-parent","new-parent"],"cleanJobs":[true,false,true]}
+Daemon long-poll connection and error checks passed.
+{"case":"initial template","jobId":"cccd","events":["newBlock"],"selectedNonCoinbaseTxs":0,"selectedRootMatchesInput":true}
+{"case":"ordinary path, revised same-parent template","jobId":"cccd","events":[],"selectedNonCoinbaseTxs":0,"selectedRootMatchesInput":false}
+{"case":"explicit refresh, identical revised input","jobId":"ccce","events":["updatedBlock"],"selectedNonCoinbaseTxs":1,"selectedRootMatchesInput":true}
+{"case":"ordinary path, next parent","jobId":"cccf","events":["newBlock"],"selectedNonCoinbaseTxs":1,"selectedRootMatchesInput":true}
+All three local checks passed.

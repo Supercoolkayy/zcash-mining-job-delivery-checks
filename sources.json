@@ -1,0 +1,42 @@
+{
+  "poolRepository": "https://github.com/upbqdn/node-stratum-pool",
+  "poolCommit": "1f0726f5c3e3b0652a6e0ca0f9abb127c4828dcd",
+  "identicalFilesIn": "https://github.com/ZcashFoundation/node-stratum-pool/tree/018915aa075aca293ae2bd1d53d9e3f6d01ca07d",
+  "asyncRepository": "https://github.com/caolan/async",
+  "asyncCommit": "c6bdaca4f9175c14fc655d3783c6af6a883e6514",
+  "files": [
+    {
+      "repository": "pool",
+      "localPath": "lib/stratum.js",
+      "upstreamPath": "lib/stratum.js",
+      "gitBlob": "344ad1dc28b795654202b31e52524486e8fe2f9d",
+      "sha256": "d5912e65ffff4bab20699760d556a80e823e2dd26590b8f0fde4b005916f58d5"
+    },
+    {
+      "repository": "pool",
+      "localPath": "lib/daemon.js",
+      "upstreamPath": "lib/daemon.js",
+      "gitBlob": "242a043201b95287707326f713663fec8ca988b9",
+      "sha256": "0743475f5a6cf2e2a383abb57ba5eac52fe93a15f7665c48fb0ba223862defa0"
+    },
+    {
+      "repository": "pool",
+      "localPath": "test/daemon.js",
+      "upstreamPath": "test/daemon.js",
+      "gitBlob": "d47374b38a3962865e9b6f7943e7626d2bd4e507",
+      "sha256": "a243824ad8801e4b9ef908fecf671f9133db83378a92cc12045ea09fef5498b3"
+    },
+    {
+      "repository": "async",
+      "localPath": "vendor/async.min.js",
+      "upstreamPath": "dist/async.min.js",
+      "gitBlob": "0b9e11339e5fb9d363b755bb77424361f6cf43c9",
+      "sha256": "6cb9078dd90e37b073942e3a9d46033218f1881941c0349808e80d002d35c709"
+    }
+  ],
+  "transcription": {
+    "localPath": "flypool-notifications.json",
+    "source": "https://forum.zcashcommunity.com/t/miner-claymores-zcash-miner/7114/1483",
+    "sha256": "0a89dfb00105a16bfbf676fa9b3cc44e265f3635ef64f6dbe3aff1167498f113"
+  }
+}
